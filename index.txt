@@ -1,2 +1,3 @@
 version 1
 git add . --> rajouter tout
+git commit -m "commit" --> commit avec msg de commit 
