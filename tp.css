@@ -1,0 +1,32 @@
+body {
+    background: -moz-linear-gradient(left,red,orange,yellow);
+}
+
+span {
+    color: #fff;
+}
+html{
+    text-align: center;
+}
+
+.algo1{
+    color: cornsilk;
+}
+
+hr {
+    width: 50%;
+
+}
+
+table {
+    color: bisque;
+    border: 2px solid;
+    font-size: 15px;
+    height: 200px;
+
+}
+
+td {
+    border: 1px solid grey;
+    padding: 0,5rem;
+}
