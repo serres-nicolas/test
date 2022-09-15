@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* to hide arrows from input number */
+/* input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+} */
+
+.main_title_home {
+  margin-bottom: 30px;
+  /* margin-top: 37px; */
+  font-size: 30px;
+  font-weight: bold;
+  color: #3D3C3A;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.about_section {
+  margin-bottom: 30px;
+  padding: 50px;
+  text-align: center;
+  background-color: #E5E4E2;
+  color: #3D3C3A;
+}
+
+.p_main_title_text{
+  text-align: justify;
+}
+
+.title {
+  color: grey;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+
+    background: linear-gradient(45deg, rgba(60,189,196), rgba(60,189,196), rgba(70,124,212)  70.71%);
+}
+
+nav {
+  position:fixed;
+  top: 0; 
+  background: linear-gradient(45deg, rgba(60,189,196), rgba(60,189,196), rgba(70,124,212)  70.71%);
+  height: 80px;
+  width: 100%;
+  z-index: 1;
+}
+
+label.logo {
+  color: #3D3C3A;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+
+nav ul {
+  float: right;
+  margin-right: 0px;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+
+nav ul li a {
+  color: #3D3C3A;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+a:hover {
+  background: #EBF4FA;
+  transition: .5s;
+}
+
+.checkbtn {
+  font-size: 30px;
+  color: #3D3C3A;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+#check {
+  display: none;
+}
+
+html {
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-size: cover; /* version standardisée */
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    }
+
+html {
+    margin:0;
+    padding:0;
+    background-color: #000;
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-size: cover; /* version standardisée */
+}
+#Nicolas {
+    margin-left: 5%;
+    color: azure;
+
+}
+body {
+    font-family: "Trebuchet MS";
+}
+.menu {
+    display: flex;                /* Transformation en flexbox */
+    padding:0px;                    /* Suppression des marges internes */
+    justify-content: left;/* Alignements des liens dans le menu */
+    float: right;
+    position: absolute;
+    top:30px;
+    right: 0px;
+    
+}
+.menu li {
+    list-style-type: none ;       /* Suppression des puces */
+}
+.menu a {
+    display:block;                /* Transformation en block */
+    min-width: 120px;             /* Largeur minimale des liens */   
+    margin: 0.5rem;               /* Marges externes */
+    padding: 0.4rem 0;            /* Marges internes */
+    text-align: center;           /* Centrage du texte */   
+    background-color: cadetblue;    /* Arrière-plan */
+    color: #fff;                  /* Couleur du texte */
+    text-decoration: none;        /* Suppression du soulignement */
+    border: 1px solid #fff;       /* Ajout d'une bordure */
+    border-radius: 4px;           /* Arrondis des bordures */
+    transition: all 1s ;          /* Ajout des effets de transition */
+}
+.menu a.actif {    
+    background-color: #000 ; 
+    color: #1ABC9C ;
+    border-color: #1ABC9C ;
+}
+.menu a:hover,
+.menu a:hover.actif{
+    background-color: #ed2794;
+    color: #ffe843;
+    border-color: #ffe843;
+}
+
+#Hello {
+    color: orange;
+    font-size: 25pt;
+    margin-left: 40%;
+    margin-right:10%;
+}
+#Qui {
+    color: azure;
+    margin-left: 40%;
+    margin-right: auto;
+}
+#presentation p {
+    margin-left: 40%;
+    margin-right:10%;
+    background-color: rgba(60,189,196);
+}
+
+.carre {
+    border-color: #666 #1c87c9;
+    border-radius: 50% 50% 50% 50%;
+    border-style: solid;
+    border-width: 25px;
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+    }
+    img {
+    margin-left:17%;
+    margin-right:70%;   
+    margin-top:-17%;
+    box-shadow: inset 0 0 1em gold, 0 0 2em white;
+    }
